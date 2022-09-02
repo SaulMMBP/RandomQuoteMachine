@@ -1,0 +1,35 @@
+$main-color: #77b1a9;
+
+body {
+  background-color: $main-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  transition: 2s;
+}
+
+#quote-box {
+  background-color: white;
+  color: $main-color;
+  max-width: 560px;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #8888;
+  text-align: center;
+  transition: 2s;
+  .quote {
+    #text {
+      font-size: 2rem;
+      font-weight: 600;
+    }
+    #author {
+      text-align: right;
+    }
+  }
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+  }
+}

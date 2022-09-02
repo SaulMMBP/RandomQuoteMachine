@@ -1,0 +1,50 @@
+body {
+  background-color: #77b1a9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  transition: 2s;
+}
+
+#quote-box {
+  background-color: white;
+  color: #77b1a9;
+  max-width: 560px;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(136, 136, 136, 0.5333333333);
+  text-align: center;
+  transition: 2s;
+}
+#quote-box .quote #text {
+  font-size: 2rem;
+  font-weight: 600;
+}
+#quote-box .quote #author {
+  text-align: right;
+}
+#quote-box .buttons {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2rem;
+}
+
+#tweet-quote {
+  color: #77b1a9;
+  transition: 2s;
+}
+
+#new-quote {
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem;
+  color: white;
+  background-color: #77b1a9;
+  transition: 2s;
+}
+#new-quote:hover {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,18 @@
+@use 'globals';
+
+#tweet-quote {
+    color: globals.$main-color;
+    transition: 2s;
+}
+
+#new-quote {
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+    color: white;
+    background-color: globals.$main-color;
+    transition: 2s;
+    &:hover {
+        cursor: pointer;
+    }
+}
